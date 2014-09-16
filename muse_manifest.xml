@@ -1,9 +1,39 @@
 <manifest alg="2" build="232" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4044408941"/>
-    <file name="index.css" crc="345391972" ref="index"/>
+    <file name="index.css" crc="464096948" ref="index"/>
   </folder>
   <folder name="assets">
+    <folder name="untitled-1">
+      <folder name="edge_includes">
+        <file name="edge.3.0.0.min.js" crc="4179919955" mt="1410866573000"/>
+        <file name="jquery-2.0.3.min.js" crc="4065232848" mt="1410866573000"/>
+      </folder>
+      <folder name="images">
+        <file name="3D-eye0001.png" crc="3881501586" mt="1410866573000"/>
+        <file name="Hand0001.png" crc="419780422" mt="1410866573000"/>
+        <file name="Hand00012.png" crc="419780422" mt="1410866573000"/>
+        <file name="Hand00013.png" crc="419780422" mt="1410866573000"/>
+        <file name="HeadSt.png" crc="4269882373" mt="1410866573000"/>
+        <file name="icon.png" crc="243559544" mt="1410866573000"/>
+        <file name="LegSt.png" crc="4141289206" mt="1410866573000"/>
+        <file name="Poster.png" crc="243559544" mt="1410866573000"/>
+        <file name="сетка.png" crc="520551420" mt="1410866573000"/>
+        <file name="3D-eye.gif" crc="243488201" mt="1410866573000"/>
+        <file name="3D-eye2.gif" crc="3973983341" mt="1410866573000"/>
+        <file name="HandHif.gif" crc="485664037" mt="1410866573000"/>
+        <file name="HandHif2.gif" crc="529435752" mt="1410866573000"/>
+        <file name="HandHif22.gif" crc="529435752" mt="1410866573000"/>
+        <file name="head-gif.gif" crc="274301711" mt="1410866573000"/>
+        <file name="head-gif2.gif" crc="484038544" mt="1410866573000"/>
+        <file name="Leg_Gif.gif" crc="4293758242" mt="1410866573000"/>
+        <file name="Leg_Gif2.gif" crc="4293758242" mt="1410866573000"/>
+      </folder>
+      <file name="Untitled-1_edge.js" crc="316940499" mt="1410866573000"/>
+      <file name="Untitled-1_edgeActions.js" crc="4178157350" mt="1410866573000"/>
+      <file name="Untitled-1_edgePreload.js" crc="394120248" mt="1410866573000"/>
+      <file name="Untitled-1.html" crc="3830139676" mt="1410866573000"/>
+    </folder>
     <file name="untitled-1.oam" crc="3951911200" mt="1410866573000"/>
   </folder>
   <folder name="scripts">
@@ -11,5 +41,5 @@
     <file name="museutils.js" crc="4291592202" ref="index"/>
     <file name="jquery.watch.js" crc="4068933136" ref="index"/>
   </folder>
-  <file name="index.html" crc="4041278425" mt="1410874227987" redirect="false"/>
+  <file name="index.html" crc="51085796" mt="1410873898128" redirect="true"/>
 </manifest>
