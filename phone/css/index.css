@@ -32,28 +32,27 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 570px;
+	min-height: 569.5416666666663px;
+	padding-bottom: 0px;
 }
 
 #page_position_content
 {
-	margin-top: -1px;
-	margin-bottom: 366px;
+	margin-bottom: 365px;
 }
 
-#u128
+#u130
 {
 	z-index: 2;
-	width: 378px;
+	width: 379px;
 	height: 205px;
 	background-color: transparent;
-	margin-left: 1px;
 	position: relative;
 }
 
-#U129_animation
+#U132_animation
 {
-	width: 378px;
+	width: 379px;
 	height: 205px;
 	border: none;
 }

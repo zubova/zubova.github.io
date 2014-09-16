@@ -4,6 +4,36 @@
     <file name="index.css" crc="185078717" ref="index"/>
   </folder>
   <folder name="assets">
+    <folder name="phone1">
+      <folder name="edge_includes">
+        <file name="edge.3.0.0.min.js" crc="4179919955" mt="1410889456000"/>
+        <file name="jquery-2.0.3.min.js" crc="4065232848" mt="1410889456000"/>
+      </folder>
+      <folder name="images">
+        <file name="3D-eye0001.png" crc="3881501586" mt="1410889456000"/>
+        <file name="Hand0001.png" crc="419780422" mt="1410889456000"/>
+        <file name="Hand00012.png" crc="419780422" mt="1410889456000"/>
+        <file name="Hand00013.png" crc="419780422" mt="1410889456000"/>
+        <file name="HeadSt.png" crc="4269882373" mt="1410889456000"/>
+        <file name="LegSt.png" crc="4141289206" mt="1410889456000"/>
+        <file name="Poster.png" crc="243559544" mt="1410889456000"/>
+        <file name="Poster2.png" crc="4051272220" mt="1410889456000"/>
+        <file name="сетка.png" crc="520551420" mt="1410889456000"/>
+        <file name="3D-eye.gif" crc="243488201" mt="1410889456000"/>
+        <file name="3D-eye2.gif" crc="3973983341" mt="1410889456000"/>
+        <file name="HandHif.gif" crc="485664037" mt="1410889456000"/>
+        <file name="HandHif2.gif" crc="529435752" mt="1410889456000"/>
+        <file name="HandHif22.gif" crc="529435752" mt="1410889456000"/>
+        <file name="head-gif.gif" crc="274301711" mt="1410889456000"/>
+        <file name="head-gif2.gif" crc="484038544" mt="1410889456000"/>
+        <file name="Leg_Gif.gif" crc="4293758242" mt="1410889456000"/>
+        <file name="Leg_Gif2.gif" crc="4293758242" mt="1410889456000"/>
+      </folder>
+      <file name="phone1_edge.js" crc="269828189" mt="1410889456000"/>
+      <file name="phone1_edgeActions.js" crc="4178157350" mt="1410889456000"/>
+      <file name="phone1_edgePreload.js" crc="3767997204" mt="1410889456000"/>
+      <file name="phone1.html" crc="3926931320" mt="1410889456000"/>
+    </folder>
     <folder name="untitled-1">
       <folder name="edge_includes">
         <file name="edge.3.0.0.min.js" crc="4179919955" mt="1410886488000"/>
@@ -40,14 +70,15 @@
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
     <file name="museutils.js" crc="4291592202" ref="phone>index:index"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="phone>index"/>
     <file name="jquery.watch.js" crc="4068933136" ref="phone>index:index"/>
     <file name="museredirect.js" crc="4101519497" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="137381699" ref="phone>index"/>
+      <file name="index.css" crc="523459265" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4205582163" mt="1410888803042" redirect="true"/>
+    <file name="index.html" crc="3884475561" mt="1410889607112" redirect="true"/>
   </folder>
   <file name="index.html" crc="460008224" mt="1410888677499" redirect="true"/>
 </manifest>
