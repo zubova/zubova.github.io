@@ -38,9 +38,16 @@
     <file name="untitled-1.oam" crc="4257972689" mt="1410886488000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4291592202" ref="index"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="4291592202" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="phone>index:index"/>
+    <file name="museredirect.js" crc="4101519497" ref="index"/>
   </folder>
-  <file name="index.html" crc="3774004913" mt="1410887440153" redirect="true"/>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="137381699" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4205582163" mt="1410888803042" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="460008224" mt="1410888677499" redirect="true"/>
 </manifest>

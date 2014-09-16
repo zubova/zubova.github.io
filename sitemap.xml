@@ -131,5 +131,6 @@
     <lastmod>2014-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://zubova.github.io/phone/index.html"/>
   </url>
 </urlset>
