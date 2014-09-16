@@ -6,15 +6,29 @@
 #page
 {
 	z-index: 1;
-	width: 0px;
+	width: 1200px;
 	min-height: 0px;
-	padding-right: 1200px;
-	padding-bottom: 605px;
+	padding-bottom: 650px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#u140
+#u156-4
+{
+	z-index: 7;
+	width: 203px;
+	line-height: 29px;
+	font-size: 24px;
+	color: #F9DADA;
+	letter-spacing: 0px;
+	font-family: poiret-one, sans-serif;
+	font-weight: 400;
+	position: fixed;
+	top: 26px;
+	left: 27px;
+}
+
+#u151
 {
 	z-index: 2;
 	width: 1200px;
@@ -26,11 +40,21 @@
 	margin-left: -600px;
 }
 
-#U142_animation
+#U153_animation
 {
 	width: 1200px;
 	height: 650px;
 	border: none;
+}
+
+#u160-4
+{
+	z-index: 3;
+	width: 145px;
+	min-height: 18px;
+	bottom: 21px;
+	left: 50%;
+	margin-left: -73px;
 }
 
 #page .verticalspacer
