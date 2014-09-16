@@ -14,19 +14,19 @@
 	margin-right: auto;
 }
 
-#u103
+#u140
 {
 	z-index: 2;
 	width: 1200px;
 	height: 650px;
 	background-color: transparent;
 	position: fixed;
-	top: -18px;
+	top: 0px;
 	left: 50%;
 	margin-left: -600px;
 }
 
-#U105_animation
+#U142_animation
 {
 	width: 1200px;
 	height: 650px;

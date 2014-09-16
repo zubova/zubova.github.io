@@ -1,9 +1,7 @@
 
 (function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_Leg_Gif2}","focus",function(sym,e){});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",399,function(sym,e){sym.stop();});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",399,function(sym,e){sym.stop();});
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();});
 //Edge binding end
@@ -17,15 +15,11 @@ Symbol.bindElementAction(compId,symbolName,"${_HeadSt}","mouseout",function(sym,
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1600,function(sym,e){sym.stop();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_LegSt}","mouseover",function(sym,e){sym.play("five");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_LegSt}","mouseout",function(sym,e){sym.play("one");});
+Symbol.bindElementAction(compId,symbolName,"${_LegSt}","mouseout",function(sym,e){sym.$("LegSt").hide();});
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2400,function(sym,e){sym.stop();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_HandHif22}","mouseover",function(sym,e){sym.$("Hand00013").show();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_HandHif22}","mouseout",function(sym,e){sym.$("Hand00013").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_Hand00013}","click",function(sym,e){sym.play("six");});
 //Edge binding end
@@ -37,8 +31,6 @@ Symbol.bindElementAction(compId,symbolName,"${_HeadSt}","mousemove",function(sym
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_HeadSt}","click",function(sym,e){sym.play("eight");});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_head-gif2}","mouseout",function(sym,e){sym.$("HeadSt").hide();});
-//Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_head-gif2}","mouseover",function(sym,e){sym.$("HeadSt").show();});
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",3200,function(sym,e){sym.stop();});
@@ -49,13 +41,21 @@ Symbol.bindElementAction(compId,symbolName,"${__3D-eye0001}","mousemove",functio
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${__3D-eye0001}","click",function(sym,e){sym.play("ten");});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${__3D-eye2}","mouseout",function(sym,e){sym.$("_3D-eye0001").hide();});
-//Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${__3D-eye2}","mouseover",function(sym,e){sym.$("_3D-eye0001").show();});
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",3600,function(sym,e){});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){var vimeo=$("<iframe/>");sym.$("video").append(vimeo);vimeo.attr('type','text/html');vimeo.attr('width','500');vimeo.attr('height','300');vimeo.attr('src','https://player.vimeo.com/video/102411703');vimeo.attr('frameborder','0');vimeo.attr('allowfullscreen','yes');});
+Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){var vimeo=$("<iframe/>");sym.$("video").append(vimeo);vimeo.attr('type','text/html');vimeo.attr('width','450');vimeo.attr('height','250');vimeo.attr('src','https://player.vimeo.com/video/102411703');vimeo.attr('frameborder','0');vimeo.attr('allowfullscreen','yes');});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_LegSt}","mousemove",function(sym,e){sym.$("LegSt").show();});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_LegSt}","click",function(sym,e){sym.play("twelve");});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_Leg_Gif2}","mouseover",function(sym,e){sym.$("LegSt").show();});
+//Edge binding end
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",4800,function(sym,e){sym.stop();});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${__3D-eye0001Copy}","click",function(sym,e){sym.play("one");});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
