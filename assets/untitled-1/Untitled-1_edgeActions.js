@@ -57,6 +57,12 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",4800,function(sym,
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${__3D-eye0001Copy}","click",function(sym,e){sym.play("one");});
 //Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_LegStCopy}","click",function(sym,e){sym.play("one");});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_Hand00013Copy}","click",function(sym,e){sym.play("one");});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_HeadStCopy}","click",function(sym,e){sym.play("one");});
+//Edge binding end
 })("stage");
 //Edge symbol end:'stage'
 
