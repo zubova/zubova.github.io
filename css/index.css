@@ -13,22 +13,7 @@
 	margin-right: auto;
 }
 
-#u156-4
-{
-	z-index: 7;
-	width: 203px;
-	line-height: 29px;
-	font-size: 24px;
-	color: #F9DADA;
-	letter-spacing: 0px;
-	font-family: poiret-one, sans-serif;
-	font-weight: 400;
-	position: fixed;
-	top: 26px;
-	left: 27px;
-}
-
-#u151
+#u236
 {
 	z-index: 2;
 	width: 1200px;
@@ -40,21 +25,30 @@
 	margin-left: -600px;
 }
 
-#U153_animation
+#U238_animation
 {
 	width: 1200px;
 	height: 650px;
 	border: none;
 }
 
-#u160-4
+#u160-6
 {
 	z-index: 3;
 	width: 145px;
 	min-height: 18px;
-	bottom: 21px;
+	bottom: 11px;
 	left: 50%;
 	margin-left: -73px;
+}
+
+#u204
+{
+	z-index: 9;
+	width: 40px;
+	position: fixed;
+	top: 12px;
+	right: 20px;
 }
 
 #page .verticalspacer

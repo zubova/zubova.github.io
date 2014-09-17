@@ -45,7 +45,7 @@ Symbol.bindElementAction(compId,symbolName,"${__3D-eye2}","mouseover",function(s
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",3600,function(sym,e){});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){var vimeo=$("<iframe/>");sym.$("video").append(vimeo);vimeo.attr('type','text/html');vimeo.attr('width','450');vimeo.attr('height','250');vimeo.attr('src','https://player.vimeo.com/video/102411703');vimeo.attr('frameborder','0');vimeo.attr('allowfullscreen','yes');});
+Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){var vimeo=$("<iframe/>");sym.$("video").append(vimeo);vimeo.attr('type','text/html');vimeo.attr('width','500');vimeo.attr('height','281');vimeo.attr('src','https://player.vimeo.com/video/106367659');vimeo.attr('frameborder','0');vimeo.attr('allowfullscreen','yes');});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_LegSt}","mousemove",function(sym,e){sym.$("LegSt").show();});
 //Edge binding end
@@ -62,6 +62,8 @@ Symbol.bindElementAction(compId,symbolName,"${_LegStCopy}","click",function(sym,
 Symbol.bindElementAction(compId,symbolName,"${_Hand00013Copy}","click",function(sym,e){sym.play("one");});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_HeadStCopy}","click",function(sym,e){sym.play("one");});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_Text7}","click",function(sym,e){window.open("mailto:verymuchmelon@gmail.com","_blank");});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
